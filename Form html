@@ -1,0 +1,73 @@
+
+<html>
+	<head>
+		<title>Data Form</title>
+	</head>
+	<body bgcolor="pink">		
+		<div class="form" id="form">
+			<form action="singup.php" method="post">
+                <table align="center"  border="2" cellpadding="5" cellspacing="5">					
+					<h1 align="center">DATA FORM</h1>
+                        <tr>
+                            <td>First Name</td>                           
+                            <td><input name="nm" type="text"></td>
+                        </tr>				
+						<tr>
+                            <td>Last Name</td>                          
+                            <td><input name="snm" type="text"></td>
+                        </tr>
+						<tr>
+                            <td>User Name</td>                          
+                            <td><input name="unm" type="text"></td>
+                        </tr>                      	
+                        <tr>
+                            <td>Email</td>                          
+                            <td><input type="email" name="email"></td>
+                        </tr>	
+						<tr>
+							<td>Password</td>
+							<td><input type="pwd" name="pwd"></td>
+						</tr>
+                        <tr>
+                            <td>Address</td>                           
+                            <td><textarea placeholder="enter your Address" name="address"></textarea></td>
+                        </tr>
+						<tr>
+                            <td>Contect</td>                          
+                            <td><input type="text" name="con"></td>					
+                        </tr>
+						<tr>				
+							<td>Gender</td>
+                            <td>Male<input type="radio" value="Male" name="radio" id="51"><br>
+								Female<input type="radio" value="Female" name="radio" id="51"><br>
+								Other<input type="radio" value="Other" name="radio" id="51"></td>
+						</tr>  
+                        <tr>
+						<tr>
+							<td>Education</td>
+							<td><select value="01" name="d0">
+								<option name="d0" id="select" value="select">Select</option>
+								<option name="d0" id="select" value="10th">10th</option>
+								<option name="d0" id="select" value="12th">12th</option>
+								<option name="d0" id="select" value="Graduation">Graduation</option>
+								<option name="d0" id="select" value="Master">Master</option></td>
+                        </tr>
+                            <td>City</td>                               
+                            <td><select value="02" name="d1">
+								<option name="d1" id="select" value="none">Select</option>
+								<option name="d1" id="select" value="Rajkot">Rajkot</option>
+								<option name="d1" id="select" value="Jamnagar">Jamnagar</option>
+								<option name="d1" id="select" value="Morbi">Morbi</option>
+								<option name="d1" id="select" value="Ahmedabad">Ahmedabad</option>
+								<option name="d1" id="select" value="Junagadh">Junagadh</option></td>
+                        </tr>							
+						<tr>    
+                            <td>
+                                <input type="submit">
+                            </td>								
+                        </tr>							
+                </table>
+            </form>
+        </div>
+	</body>
+</html>
